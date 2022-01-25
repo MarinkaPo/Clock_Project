@@ -27,9 +27,10 @@ training ResNext50 on a dataset of over 200,000 images (720 image classes).
 
 ## ResNext50 classification:
 
-1) creating a dataset with timelaps video split
-2) creating a dataset with the clock image generation function
-3) training the ResNext50 model on a generalized dataset 
+1) creating and annotating a dataset:
+- with timelaps video split
+- with the clock image generation function
+2) training the ResNext50 model on a generalized dataset 
 
 # Results
 Inference on ResNext50 gives 60% accuracy.
