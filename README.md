@@ -1,4 +1,4 @@
-# :alarm_clock: :clock6: :watch: Clock_Project
+# :alarm_clock: Clock_Project :watch: 
 The main question was - how to determine time from a photo of an analog clock using neural networks.
 
 # Project description
