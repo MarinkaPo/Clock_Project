@@ -12,7 +12,7 @@ segmentation of clock hands, detection of dial numbers and time determination th
 training ResNext50 on a dataset of over 200,000 images (720 image classes). 
 
 # Project stages
-1. Trigonometric method:
+## Trigonometric method:
 
 1) annotate the dataset:
 - for arrow segmentation (https://www.makesense.ai/)
@@ -25,7 +25,7 @@ training ResNext50 on a dataset of over 200,000 images (720 image classes).
 
 (!) Due to the low accuracy, it was decided to change the approach of time determination.
 
-2. ResNext50 classification:
+## ResNext50 classification:
 
 Co-authors:
 
