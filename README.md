@@ -1,5 +1,5 @@
 # :alarm_clock: :clock6: :watch: Clock_Project
-Determining time from a photo of an analog clock
+The main question was - how to determine time from a photo of an analog clock.
 
 # Project description
 2 options for solving the problem of determining time from a photo of an analog clock were worked out:
@@ -19,4 +19,3 @@ https://github.com/tano4ku
 https://github.com/AdelGR
 
 https://github.com/PavelBogoslovskiy
-
