@@ -11,6 +11,21 @@ segmentation of clock hands, detection of dial numbers and time determination th
 
 training ResNext50 on a dataset of over 200,000 images (720 image classes). 
 
+# Project stages
+1. Trigonometric method:
+
+1) annotate the dataset:
+- for arrow segmentation (https://www.makesense.ai/)
+- for detection of dial numbers (https://roboflow.com/)
+2) training and obtaining model weights:
+- mask_rcnn - for arrow segmentation
+- faster_rcnn - for number detection
+3) getting coordinates of arrows and numbers
+4) determining time with coordinates and trigonometric functions
+
+(!) Due to the low accuracy, it was decided to change the approach of time determination.
+
+2. ResNext50 classification:
 
 Co-authors:
 
