@@ -35,7 +35,7 @@ training ResNext50 on a dataset of over 200,000 images (720 image classes).
 # Results
 Inference on ResNext50 gives 60% accuracy.
 
-Telegram bot ... became the final product of the project.
+Telegram bot became the final product of the project.
 
 ![process](additional/mini_gif.gif)
 
