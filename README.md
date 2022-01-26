@@ -37,6 +37,8 @@ Inference on ResNext50 gives 60% accuracy.
 
 Telegram bot ... became the final product of the project.
 
+![process](additional/big_gif.gif)
+
 ## :man: :computer: Co-authors:
 
 https://github.com/tano4ku
