@@ -1,4 +1,3 @@
-from imports import import_lib
 from functions import best_detect_num, trr, len_line, arr, calculate_angle, mask, coord_hm, angle_12_3, time 
 
 # предварительно нужно установить:
@@ -6,8 +5,36 @@ from functions import best_detect_num, trr, len_line, arr, calculate_angle, mask
 # pip install torch==1.9.0+cu102 torchvision==0.10.0+cu102 -f https://download.pytorch.org/whl/torch_stable.html
 # pip install detectron2 -f https://dl.fbaipublicfiles.com/detectron2/wheels/cu102/torch1.9/index.html
 
-# все импорты
-import_lib()
+# все импорты 
+import torch, torchvision
+assert torch.__version__.startswith("1.9") 
+import detectron2
+from detectron2.utils.logger import setup_logger
+setup_logger()
+
+import numpy as np
+import os, json, cv2, random
+import math
+import pandas as pd
+from google.colab.patches import cv2_imshow
+import matplotlib as plt
+import random
+import copy
+from PIL import Image
+from tqdm import tqdm
+
+from detectron2 import model_zoo
+from detectron2.engine import DefaultTrainer
+from detectron2.engine import DefaultPredictor
+from detectron2.evaluation import COCOEvaluator
+from detectron2.config import get_cfg
+from detectron2.data import detection_utils as utils
+from detectron2.data import detection_utils as utils
+from detectron2.data import MetadataCatalog, DatasetCatalog
+from detectron2.data import build_detection_test_loader, build_detection_train_loader
+from detectron2.data import transforms as T
+from detectron2.data.datasets import register_coco_instances
+from detectron2.utils.visualizer import Visualizer
 
 # берём предобученные веса faster_rcnn_R_50_FPN_3x
 cfg_crop = get_cfg()
